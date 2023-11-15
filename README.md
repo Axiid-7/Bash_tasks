@@ -1,5 +1,28 @@
 # Bash Practice
 
+<details>
+<summary>Table of Content</summary>
+
+- [Bash Practice](#bash-practice)
+    - [Task 1](#task1sh)
+        - [How to run](#to-run-this-program)
+    - [Task 2](#task2sh)
+        - [How to run](#to-run-this-program-1)
+    - [Whats my IP](#whats_my_ipsh)
+        - [How to run](#to-run-this-program-2)
+    - [.Dotfile](#dotfile)
+        - [How to run](#to-run-this-program-3)
+    - [Box Print](#box_printsh)
+        - [How to run](#to-run-this-program-4)
+    - [Box Print.2](#box_print_2sh)
+        - [How to run](#to-run-this-program-5)
+    - [Wallpaper](#wallpapersh)
+        - [How to run](#to-run-this-program-6)
+    - [Cron Job](#cronjobsh)
+        - [How to run](#to-run-this-program-7)
+</details>
+
+
 ## task1.sh
 
 `task1.sh` is a **BASH** program that searches for file in a specified folder using ***Depth First Search***  
