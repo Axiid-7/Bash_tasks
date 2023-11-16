@@ -4,8 +4,8 @@
 function print_box() {
     
     # Stores length of string.
-    Length_of_string=${#2}
-    Length_of_string=$(($Length_of_string + 4))
+    length_of_string=${#2}
+    length_of_string=$(($length_of_string + 4))
     
     # Prints string if character is not given.   
     if [[ ("$1" == "") ]]; then
@@ -21,7 +21,7 @@ function print_box() {
 
     # Prints character length of string times on first line.
     temp=0
-    while [ $Length_of_string -gt $temp ]; do
+    while [ $length_of_string -gt $temp ]; do
         echo -n $1
         temp=$(($temp + 1))
     done
@@ -31,7 +31,7 @@ function print_box() {
     
     # Prints character length of string times on next line.
     temp1=0
-    while [ $Length_of_string -gt $temp1 ]; do
+    while [ $length_of_string -gt $temp1 ]; do
         echo -n $1
         temp1=$(($temp1 + 1))
     done
